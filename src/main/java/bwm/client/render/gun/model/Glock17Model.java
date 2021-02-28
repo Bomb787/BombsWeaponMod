@@ -36,6 +36,7 @@ public class Glock17Model implements IOverrideModel{
 		
 	}
 	
+	//Temporary for testing
 	private double easeInOutBack(double x) {
 		
         	double c1 = 1.70158;
