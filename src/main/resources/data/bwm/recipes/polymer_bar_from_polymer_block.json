@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bwm:polymer_bar",
+  "ingredients": [
+    {
+      "item": "bwm:polymer_block"
+    }
+  ],
+  "result": {
+    "item": "bwm:polymer_bar",
+    "count": 4
+  }
+}

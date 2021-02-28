@@ -1,0 +1,35 @@
+{
+  "parent": "bwm:weapons/root",
+  "display": {
+    "icon": {
+      "item": "bwm:bauxite_ore"
+    },
+    "title": {
+      "translate": "advancements.bwm.getbauxite.title"
+    },
+    "description": {
+      "translate": "advancements.bwm.getbauxite.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getbauxite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bwm:bauxite_ore"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "getbauxite"
+    ]
+  ]
+}

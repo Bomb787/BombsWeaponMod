@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "bwm:steel_ingot",
+  "ingredients": [
+    {
+      "item": "bwm:steel_block"
+    }
+  ],
+  "result": {
+    "item": "bwm:steel_ingot",
+    "count": 9
+  }
+}

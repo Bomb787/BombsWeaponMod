@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bwm:polymer_mix"
+  },
+  "result": "bwm:polymer_bar",
+  "experience": 0.2,
+  "cookingtime": 100
+}

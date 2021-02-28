@@ -1,0 +1,35 @@
+{
+  "parent": "bwm:weapons/root",
+  "display": {
+    "icon": {
+      "item": "bwm:steel_ingot"
+    },
+    "title": {
+      "translate": "advancements.bwm.getsteel.title"
+    },
+    "description": {
+      "translate": "advancements.bwm.getsteel.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getbauxite": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bwm:steel_ingot"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "getbauxite"
+    ]
+  ]
+}

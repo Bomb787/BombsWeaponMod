@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "bwm:steel_ingot"
+    }
+  },
+  "result": {
+    "item": "bwm:steel_plate"
+    "count": 2
+  }
+}

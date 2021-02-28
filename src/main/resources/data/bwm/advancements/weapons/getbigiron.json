@@ -1,0 +1,35 @@
+{
+  "parent": "bwm:weapons/root",
+  "display": {
+    "icon": {
+      "item": "bwm:big_iron"
+    },
+    "title": {
+      "translate": "advancements.bwm.getbigiron.title"
+    },
+    "description": {
+      "translate": "advancements.bwm.getbigiron.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": true
+  },
+  "criteria": {
+    "getbigiron": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bwm:big_iron"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "getbigiron"
+    ]
+  ]
+}

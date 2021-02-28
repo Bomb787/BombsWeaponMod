@@ -1,0 +1,49 @@
+modLoader="javafml" #mandatory
+loaderVersion="[35,)" #mandatory
+license="GNU GPLv3" #mandatory
+ 
+[[mods]] #mandatory
+modId="bwm" #mandatory
+version="0.1" #mandatory
+displayName="Bomb's Weapons Mod" #mandatory
+logoFile="weaponsmod.png" #optional
+credits="MrCrayfish for developing Obfuscate and the Gun Mod." #optional
+authors="Bomb787" #optional
+description='''
+An addon for MrCrayfish's Gun Mod with various other aspects.
+''' #mandatory
+
+[[dependencies.bombguns]]
+	modId="forge"
+	mandatory=true
+	versionRange="[35,)"
+	ordering="NONE"
+	side="BOTH"
+	
+[[dependencies.bombguns]]
+	modId="minecraft"
+	mandatory=true
+	versionRange="[1.16.5, 1.17)"
+	ordering="NONE"
+	side="BOTH"
+	
+[[dependencies.bombguns]]
+	modId="cgm"
+	mandatory=true
+	versionRange="[1.0.0,)"
+	ordering="NONE"
+	side="BOTH"
+	
+[[dependencies.bombguns]]
+	modId="obfuscate"
+	mandatory=true
+	versionRange="[0.6.0,)"
+	ordering="NONE"
+	side="BOTH"
+
+[[dependencies.bombguns]]
+	modId="controllable"
+	mandatory=false
+	versionRange="[0.10.3,)"
+	ordering="NONE"
+	side="CLIENT"

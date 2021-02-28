@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "ingredient": {
+    "item": "bwm:ar_lower_receiver"
+  },
+  "result": "bwm:aluminium_ingot",
+  "experience": 0.0,
+  "cookingtime": 100
+}

@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:blasting",
+  "ingredient": {
+    "item": "bwm:polymer_mix"
+  },
+  "result": "bwm:polymer_bar",
+  "experience": 1.4,
+  "cookingtime": 50
+}

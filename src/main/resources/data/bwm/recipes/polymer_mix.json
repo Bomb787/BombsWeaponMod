@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#S#",
+        "SOS",
+        "#S#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:coal"
+        },
+        "S": {
+            "item": "minecraft:slime_ball"
+        },
+        "O": {
+            "tag": "minecraft:logs_that_burn"
+        }
+    },
+    "result": {
+        "item": "bwm:polymer_mix",
+        "count": 4
+    }
+}

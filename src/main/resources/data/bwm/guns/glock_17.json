@@ -1,0 +1,54 @@
+{
+    "general": {
+        "rate": 3,
+        "gripType": "cgm:one_handed",
+        "maxAmmo": 17,
+        "reloadAmount": 17,
+        "recoilAngle": 8,
+        "recoilAdsReduction": 0.5,
+        "alwaysSpread": true,
+        "spread": 0.5
+    },
+    "projectile": {
+        "item": "bwm:9mm_parabellum",
+        "visible": false,
+        "damage": 8,
+        "size": 0.2,
+        "speed": 30.0,
+        "life": 1000
+    },
+    "sounds": {
+        "fire": "cgm:item.pistol.fire",
+        "reload": "cgm:item.pistol.reload",
+        "cock": "cgm:item.pistol.cock",
+        "silencedFire": "cgm:item.pistol.silenced_fire"
+    },
+    "display": {
+        "flash": {
+            "yOffset": 3.3,
+            "zOffset": -16
+        }
+    },
+    "modules": {
+        "zoom": {
+            "fovModifier": 1.0,
+            "yOffset": 12.8
+        },
+        "attachments": {
+            "scope": {
+                "yOffset": 3.7,
+                "zOffset": 6.0,
+                "scale": 0.75
+            },
+            "barrel": {
+                "yOffset": 3.3,
+                "zOffset": -16,
+                "scale": 0.5
+            },
+            "stock": {
+                "yOffset": 3.3,
+                "zOffset": 7.95
+            }
+        }
+    }
+}

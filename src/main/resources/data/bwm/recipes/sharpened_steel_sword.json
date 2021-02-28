@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:smithing",
+    "base": {
+        "item": "bwm:steel_sword"
+    },
+    "addition": {
+        "item": "bwm:sharpening_kit"
+    },
+    "result": {
+        "item": "bwm:sharpened_steel_sword"
+    }
+}

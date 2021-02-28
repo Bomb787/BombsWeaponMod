@@ -1,0 +1,35 @@
+{
+  "parent": "bwm:weapons/root",
+  "display": {
+    "icon": {
+      "item": "bwm:polymer_bar"
+    },
+    "title": {
+      "translate": "advancements.bwm.getpolymer.title"
+    },
+    "description": {
+      "translate": "advancements.bwm.getpolymer.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "getpolymer": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "item": "bwm:polymer_bar"
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "getpolymer"
+    ]
+  ]
+}
