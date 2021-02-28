@@ -1,0 +1,66 @@
+{
+
+
+	//Advancements
+	//"advancements.bwm.title": "Guns!",
+	//"advancements.bwm.description": "Better than bows! Usually...",
+	"advancements.bwm.title": "Bomb's Weapon Mod",
+	"advancements.bwm.description": "What it says on the tin",
+	"advancements.bwm.getbauxite.title": "Why is it Called Bauxite?",
+	"advancements.bwm.getbauxite.description": "Obtain your first bauxite ore",
+	"advancements.bwm.getsteel.title": "Acquire...Harder-ware",
+	"advancements.bwm.getsteel.description": "It's like iron, but better",
+	"advancements.bwm.getpolymer.title": "The Kardashians",
+	"advancements.bwm.getpolymer.description":"♫ And the ocean is full of plastic ♫",
+	"advancements.bwm.crayfishtitle": "MrCrayfish's Gun Mod",
+	"advancements.bwm.crayfishdescription": "Welcome to MrCrayfish's Gun Mod!",
+	"advancements.bwm.minigun.title": "BRRRRRRRRT",
+	"advancements.bwm.minigun.description": "It costs 4 stacks of emeralds to fire this gun...for twelve seconds.",
+	"advancements.bwm.getbigiron.title": "Arizona Ranger",
+	"advancements.bwm.getbigiron.description": "To the town of Agua Fria rode a stranger one fine day...",
+	
+	//Blocks
+	"block.bwm.bauxite_ore": "Bauxite Ore",
+	"block.bwm.aluminium_block": "Aluminium Block",
+	"block.bwm.steel_block": "Steel Block",
+	"block.bwm.polymer_block": "Polymer Block",
+	
+	//Swords
+	"item.bwm.aluminium_sword": "Aluminium Sword",
+	"item.bwm.steel_sword": "Steel Sword",
+	"item.bwm.sharpened_aluminium_sword": "Sharpened Aluminium Sword",
+	"item.bwm.sharpened_steel_sword": "Sharpened Steel Sword",
+	"item.bwm.sharpened_iron_sword": "Sharpened Iron Sword",
+	"item.bwm.sharpened_diamond_sword": "Sharpened Diamond Sword",
+	"item.bwm.sharpened_netherite_sword": "Sharpened Netherite Sword",
+	
+	//Guns
+	"item.bwm.big_iron": "Big Iron",
+	"item.bwm.glock_17": "Glock 17",
+	
+	//Bullets
+	"item.bwm.762x39": "7.62x39",
+	"item.bwm.9mm_parabellum": "9mm Parabellum",
+	
+	//Regular Items
+	"item.bwm.sharpening_kit": "Sharpening Kit",
+	"item.bwm.aluminium_ingot": "Aluminium Ingot",
+	"item.bwm.aluminium_nugget": "Aluminium Nugget",
+	"item.bwm.steel_ingot": "Steel Ingot",
+	"item.bwm.steel_nugget": "Steel Nugget",
+	"item.bwm.steel_plate": "Steel Plate",
+	"item.bwm.iron_coal_mix": "Iron and Coal Mixture",
+	"item.bwm.polymer_mix": "Polymer Mixture",
+	"item.bwm.polymer_bar": "Polymer Bar",
+	
+	//Creative Tabs
+	"itemGroup.material": "Materials",
+	//"itemGroup.pattern": "Patterns",
+	//"itemGroup.part": "Parts",
+	"itemGroup.gun": "Guns",
+	"itemGroup.bullet": "Ammo",
+	
+	//Controls
+	"key.categories.bwm": "Bomb's Guns Mod"
+
+}

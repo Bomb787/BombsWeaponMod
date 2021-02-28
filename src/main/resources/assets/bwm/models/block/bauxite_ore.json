@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "bwm:blocks/bauxite_ore"
+  }
+}

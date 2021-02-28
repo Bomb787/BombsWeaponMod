@@ -1,0 +1,180 @@
+{
+	"credit": "Made by Bomb787 in Blockbench",
+	"texture_size": [64, 64],
+	"textures": {
+		"0": "bwm:items/glock17",
+		"particle": "bwm:items/glock17"
+	},
+	"elements": [
+		{
+			"name": "Magazine 1",
+			"from": [7.25, 2.20068, 13.73897],
+			"to": [8.75, 10.20068, 14.35809],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.25, 4.57508, 14.33897]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0.5, 2], "texture": "#0"},
+				"west": {"uv": [0.25, 0, 0.25, 2], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0.5, 0, 0.25, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 2",
+			"from": [7.25, 2.20068, 13.23897],
+			"to": [8.75, 10.20068, 13.85809],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.25, 4.57508, 13.83897]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0.5, 2], "texture": "#0"},
+				"west": {"uv": [0.25, 0, 0.25, 2], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0.5, 0, 0.25, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 3",
+			"from": [7.25, 2.20068, 12.63897],
+			"to": [8.75, 10.20068, 13.25809],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.25, 4.57508, 13.23897]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0.5, 2], "texture": "#0"},
+				"west": {"uv": [0.25, 0, 0.25, 2], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0.5, 0, 0.25, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 4",
+			"from": [7.25, 2.20068, 12.03897],
+			"to": [8.75, 10.20068, 12.65809],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.25, 4.57508, 12.63897]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0.5, 2], "texture": "#0"},
+				"west": {"uv": [0.25, 0, 0.25, 2], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0.5, 0, 0.25, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 5",
+			"from": [7.25, 2.20068, 11.53897],
+			"to": [8.75, 10.20068, 12.15809],
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [7.25, 4.57508, 12.13897]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 2], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 2], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0.5, 2], "texture": "#0"},
+				"west": {"uv": [0.25, 0, 0.25, 2], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0.5, 0, 0.25, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 6",
+			"from": [7.25, 2.15181, 12.49329],
+			"to": [8.75, 2.65181, 14.69329],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 4.52622, 13.09329]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 0.75, 0.5], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 0.5], "texture": "#0"},
+				"south": {"uv": [1.25, 0.5, 1.5, 0.5], "texture": "#0"},
+				"west": {"uv": [0.75, 0.5, 1.25, 0.5], "texture": "#0"},
+				"up": {"uv": [0.75, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [1, 0, 0.75, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 7",
+			"from": [7.25, 9.27977, 10.00382],
+			"to": [8.75, 9.77977, 12.20382],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 11.65418, 10.60382]},
+			"faces": {
+				"north": {"uv": [0.5, 0.5, 0.75, 0.5], "texture": "#0"},
+				"east": {"uv": [0, 0.5, 0.5, 0.5], "texture": "#0"},
+				"south": {"uv": [1.25, 0.5, 1.5, 0.5], "texture": "#0"},
+				"west": {"uv": [0.75, 0.5, 1.25, 0.5], "texture": "#0"},
+				"up": {"uv": [0.75, 0.5, 0.5, 0], "texture": "#0"},
+				"down": {"uv": [1, 0, 0.75, 0.5], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 8",
+			"from": [7.25, 9.54284, 9.43182],
+			"to": [8.75, 9.77977, 10.00382],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 11.65418, 8.40382]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0.5, 0], "texture": "#0"},
+				"west": {"uv": [0.25, 0, 0.25, 0], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0.5, 0, 0.25, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 9",
+			"from": [7.25, 2.15181, 14.69329],
+			"to": [8.75, 2.38874, 15.26528],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 4.26314, 13.66528]},
+			"faces": {
+				"north": {"uv": [0, 0, 0.25, 0], "texture": "#0"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#0"},
+				"south": {"uv": [0.25, 0, 0.5, 0], "texture": "#0"},
+				"west": {"uv": [0.25, 0, 0.25, 0], "texture": "#0"},
+				"up": {"uv": [0.25, 0, 0, 0], "texture": "#0"},
+				"down": {"uv": [0.5, 0, 0.25, 0], "texture": "#0"}
+			}
+		},
+		{
+			"name": "Magazine 10",
+			"from": [7.25, 1.91488, 12.19329],
+			"to": [8.75, 2.15181, 15.26528],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.25, 4.02622, 13.66528]},
+			"faces": {
+				"north": {"uv": [0.75, 0.75, 1, 0.75], "texture": "#0"},
+				"east": {"uv": [0, 0.75, 0.75, 0.75], "texture": "#0"},
+				"south": {"uv": [1.75, 0.75, 2, 0.75], "texture": "#0"},
+				"west": {"uv": [1, 0.75, 1.75, 0.75], "texture": "#0"},
+				"up": {"uv": [1, 0.75, 0.75, 0], "texture": "#0"},
+				"down": {"uv": [1.25, 0, 1, 0.75], "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [22.5, 0, 0],
+			"translation": [0, 0.5, -0.75],
+			"scale": [0.66, 0.66, 0.66]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.66, 0.66, 0.66]
+		},
+		"firstperson_righthand": {
+			"translation": [-3.5, 3, 3],
+			"scale": [0.66, 0.66, 0.66]
+		},
+		"ground": {
+			"scale": [0.66, 0.66, 0.66]
+		},
+		"gui": {
+			"rotation": [30, -135, 0]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0]
+		}
+	},
+	"groups": [
+		{
+			"name": "Magazine",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9]
+		}
+	]
+}
