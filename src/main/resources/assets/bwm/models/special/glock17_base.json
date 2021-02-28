@@ -2,8 +2,8 @@
 	"credit": "Made by Bomb787 in Blockbench",
 	"texture_size": [64, 64],
 	"textures": {
-		"0": "bwm:items/glock17",
-		"particle": "bwm:items/glock17"
+		"0": "bwm:items/glock_17",
+		"particle": "bwm:items/glock_17"
 	},
 	"elements": [
 		{
