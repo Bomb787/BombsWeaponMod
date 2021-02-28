@@ -22,25 +22,26 @@ public class Glock17Model implements IOverrideModel{
 		
 		if(entity.equals(Minecraft.getInstance().player)) {
 			
-            matrixStack.push();
-            matrixStack.translate(0, -5.8 * 0.0625, 0);
-            CooldownTracker tracker = Minecraft.getInstance().player.getCooldownTracker();
-            float cooldown = tracker.getCooldown(stack.getItem(), Minecraft.getInstance().getRenderPartialTicks());
-            cooldown = (float) easeInOutBack(cooldown);
-            matrixStack.rotate(Vector3f.ZN.rotationDegrees(45F * cooldown));
-            matrixStack.translate(0, 5.8 * 0.0625, 0);
-            RenderUtil.renderModel(SpecialModels.GLOCK17SLIDE.getModel(), stack, matrixStack, renderTypeBuffer, light, overlay);
-            matrixStack.pop();
+            		matrixStack.push();
+            		matrixStack.translate(0, -5.8 * 0.0625, 0);
+           		 CooldownTracker tracker = Minecraft.getInstance().player.getCooldownTracker();
+            		float cooldown = tracker.getCooldown(stack.getItem(), Minecraft.getInstance().getRenderPartialTicks());
+            		cooldown = (float) easeInOutBack(cooldown);
+            		matrixStack.rotate(Vector3f.ZN.rotationDegrees(45F * cooldown));
+            		matrixStack.translate(0, 5.8 * 0.0625, 0);
+            		RenderUtil.renderModel(SpecialModels.GLOCK17SLIDE.getModel(), stack, matrixStack, renderTypeBuffer, light, overlay);
+            		matrixStack.pop();
             
-        }
+        	}
 		
 	}
 	
-	private double easeInOutBack(double x)
-    {
-        double c1 = 1.70158;
-        double c2 = c1 * 1.525;
-        return (x < 0.5 ? (Math.pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2)) / 2 : (Math.pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2);
-    }
+	private double easeInOutBack(double x) {
+		
+        	double c1 = 1.70158;
+        	double c2 = c1 * 1.525;
+        	return (x < 0.5 ? (Math.pow(2 * x, 2) * ((c2 + 1) * 2 * x - c2)) / 2 : (Math.pow(2 * x - 2, 2) * ((c2 + 1) * (x * 2 - 2) + c2) + 2) / 2);
+		
+	}
 
 }
