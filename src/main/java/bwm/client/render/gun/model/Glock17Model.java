@@ -20,7 +20,7 @@ public class Glock17Model implements IOverrideModel{
 		
 		RenderUtil.renderModel(SpecialModels.GLOCK17BASE.getModel(), stack, matrixStack, renderTypeBuffer, light, overlay);
 		
-		//if(entity.equals(Minecraft.getInstance().player)) {
+		if(entity.equals(Minecraft.getInstance().player)) {
 			
             matrixStack.push();
             matrixStack.translate(0, -5.8 * 0.0625, 0);
@@ -32,7 +32,7 @@ public class Glock17Model implements IOverrideModel{
             RenderUtil.renderModel(SpecialModels.GLOCK17SLIDE.getModel(), stack, matrixStack, renderTypeBuffer, light, overlay);
             matrixStack.pop();
             
-        //}
+        }
 		
 	}
 	
