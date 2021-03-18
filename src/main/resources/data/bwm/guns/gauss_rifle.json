@@ -1,0 +1,48 @@
+{
+    "general": {
+        "rate": 40,
+        "gripType": "cgm:two_handed",
+        "maxAmmo": 1,
+        "reloadAmount": 1,
+        "recoilKick": 1,
+        "recoilAngle": 10,
+        "alwaysSpread": true,
+        "spread": 0.5
+    },
+    "projectile": {
+        "item": "bwm:redstone_bullet",
+        "visible": false,
+        "damage": 30,
+        "size": 0.2,
+        "speed": 30.0,
+        "life": 100
+    },
+    "sounds": {
+        "fire": "bwm:item.gauss_rifle.fire",
+        "reload": "cgm:item.pistol.reload"
+    },
+    "display": {
+        "flash": {
+            "yOffset": 3.6,
+            "zOffset": -10,
+            "size": 0.5
+        }
+    },
+    "modules": {
+        "zoom": {
+            "fovModifier": 0.9,
+            "yOffset": 5.2,
+            "zOffset": 3.2
+        },
+        "attachments": {
+            "scope": {
+                "yOffset": 4.4,
+                "zOffset": 4.0
+            },
+            "stock": {
+                "yOffset": 3.6,
+                "zOffset": 8.2
+            }
+        }
+    }
+}

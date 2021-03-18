@@ -1,0 +1,6 @@
+All of these are divided by 2, as groupings go both left/right/up/down
+Glock 17 = 0.06, 2 inch/5.08cm grouping at 25 yards/22.86 meters
+AK-74 = 0.01, 1.57 inch/4cm grouping at 109.36 yards/100 meters
+AK-103 = Unknown, AKM fires 6cm groupings at 100m, so assuming it's similar to 0.015, 2.36 inch/4cm grouping at 109.36 yards/100 meters, probably slightly less
+M4A1 = 0.03, Estimated 1 inch/2.54 grouping at 27.34 yards/25 meters
+HK417 = 0.008, 1 MOA, 1 inch/1.27cm grouping at 100 yards/91.44 meters
