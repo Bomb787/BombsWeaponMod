@@ -1,0 +1,50 @@
+{
+  "item.trashcan.boom": {
+    "subtitle": "subtitle.trashcan.boom",
+    "sounds": [
+      { "name": "bwm:item/boom" }
+    ]
+  },
+  "item.trashcan.reload": {
+    "subtitle": "subtitle.trashcan.reload",
+    "sounds": [
+      { "name": "bwm:item/trashcanreload" }
+    ]
+  },
+  "item.gauss_rifle.fire": {
+    "subtitle": "subtitle.cgm.fire",
+    "sounds": [
+      { "name": "bwm:item/gauss_rifle_fire" }
+    ]
+  },
+  "item.akm.fire": {
+    "subtitle": "subtitle.cgm.fire",
+    "sounds": [
+      { "name": "bwm:item/akm_fire" }
+    ]
+  },
+  "item.ak_74.fire": {
+    "subtitle": "subtitle.cgm.fire",
+    "sounds": [
+      { "name": "bwm:item/ak_74_fire" }
+    ]
+  },
+  "item.glock.fire": {
+    "subtitle": "subtitle.cgm.fire",
+    "sounds": [
+      { "name": "bwm:item/glock_fire" }
+    ]
+  },
+  "item.m4a1.fire": {
+    "subtitle": "subtitle.cgm.fire",
+    "sounds": [
+      { "name": "bwm:item/m4a1_fire" }
+    ]
+  },
+  "item.hk417.fire": {
+    "subtitle": "subtitle.cgm.fire",
+    "sounds": [
+      { "name": "bwm:item/hk417_fire" }
+    ]
+  }
+}
