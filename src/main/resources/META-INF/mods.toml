@@ -13,37 +13,44 @@ description='''
 An addon for MrCrayfish's Gun Mod with various other aspects.
 ''' #mandatory
 
-[[dependencies.bombguns]]
+[[dependencies.bwm]]
 	modId="forge"
 	mandatory=true
 	versionRange="[35,)"
 	ordering="NONE"
 	side="BOTH"
 	
-[[dependencies.bombguns]]
+[[dependencies.bwm]]
 	modId="minecraft"
 	mandatory=true
 	versionRange="[1.16.5, 1.17)"
 	ordering="NONE"
 	side="BOTH"
 	
-[[dependencies.bombguns]]
+[[dependencies.bwm]]
 	modId="cgm"
 	mandatory=true
 	versionRange="[1.0.0,)"
 	ordering="NONE"
 	side="BOTH"
 	
-[[dependencies.bombguns]]
+[[dependencies.bwm]]
 	modId="obfuscate"
 	mandatory=true
 	versionRange="[0.6.0,)"
 	ordering="NONE"
 	side="BOTH"
 
-[[dependencies.bombguns]]
+[[dependencies.bwm]]
 	modId="controllable"
 	mandatory=false
 	versionRange="[0.10.3,)"
+	ordering="NONE"
+	side="CLIENT"
+	
+[[dependencies.bwm]]
+	modId="geckolib3"
+	mandatory=true
+	versionRange="[3.0.15,)"
 	ordering="NONE"
 	side="CLIENT"
