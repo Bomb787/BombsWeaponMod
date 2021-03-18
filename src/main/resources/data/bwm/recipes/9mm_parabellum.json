@@ -1,0 +1,17 @@
+{
+    "type": "cgm:workbench",
+    "result": {
+        "item": "bwm:9mm_parabellum",
+        "count": 8
+    },
+    "materials": [
+        {
+            "item": "minecraft:iron_nugget",
+            "count": 8
+        },
+        {
+            "item": "minecraft:gunpowder",
+            "count": 4
+        }
+    ]
+}

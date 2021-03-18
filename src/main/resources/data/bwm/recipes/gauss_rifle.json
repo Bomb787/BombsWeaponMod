@@ -1,0 +1,20 @@
+{
+    "type": "cgm:workbench",
+    "result": {
+        "item": "bwm:gauss_rifle"
+    },
+    "materials": [
+        {
+            "item": "minecraft:iron_ingot",
+            "count": 28
+        },
+        {
+            "item": "minecraft:redstone",
+            "count": 32
+        },
+        {
+            "item": "minecraft:diamond",
+            "count": 4
+        }
+    ]
+}

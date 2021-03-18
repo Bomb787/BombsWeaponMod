@@ -1,0 +1,20 @@
+{
+    "type": "cgm:workbench",
+    "result": {
+        "item": "bwm:ak_74"
+    },
+    "materials": [
+        {
+            "item": "bwm:steel_ingot",
+            "count": 32
+        },
+        {
+            "item": "bwm:polymer_bar",
+            "count": 2
+        },
+		{
+	    	"item": "oak_log",
+	    	"count": 4
+		}
+    ]
+}

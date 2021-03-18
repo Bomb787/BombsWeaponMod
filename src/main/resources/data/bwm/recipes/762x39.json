@@ -1,0 +1,21 @@
+{
+    "type": "cgm:workbench",
+    "result": {
+        "item": "bwm:762x39",
+        "count": 8
+    },
+    "materials": [
+        {
+            "item": "minecraft:iron_nugget",
+            "count": 6
+        },
+        {
+            "item": "bwm:steel_nugget",
+            "count": 6
+        },
+        {
+            "item": "minecraft:gunpowder",
+            "count": 6
+        }
+    ]
+}

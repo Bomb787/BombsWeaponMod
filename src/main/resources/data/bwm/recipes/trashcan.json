@@ -1,0 +1,12 @@
+{
+    "type": "cgm:workbench",
+    "result": {
+        "item": "bwm:trashcan"
+    },
+    "materials": [
+        {
+            "item": "bwm:steel_ingot",
+            "count": 7
+        }
+    ]
+}

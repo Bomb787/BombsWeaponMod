@@ -1,0 +1,15 @@
+{
+    "type": "cgm:workbench",
+    "result": {
+        "item": "bwm:redstone_bullet"
+    },
+    "materials": [
+        {
+            "item": "minecraft:iron_block"
+        },
+        {
+            "item": "minecraft:redstone",
+            "count": 8
+        }
+    ]
+}
