@@ -11,8 +11,16 @@ import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 
+/**
+ * This class is where all of the mod's blocks are registered
+ * Author: Bomb787
+ */
 public class BlockInit {
 	
+	/*
+     * This creates a Deferred Register where all of the blocks will be registered
+     * This is called and added to the event bus in the main mod file.
+     */
 	public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS,
 			WeaponsMod.MOD_ID);
 	
