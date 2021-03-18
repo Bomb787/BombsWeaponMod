@@ -6,6 +6,10 @@ import bwm.core.init.ItemInit;
 import net.minecraft.item.IItemTier;
 import net.minecraft.item.crafting.Ingredient;
 
+/*
+ * This file defines all of the item tiers for things such as swords and tools.
+ * 
+ */
 public enum ItemTiers implements IItemTier{
 	
 	//Mining level, durability, mining speed, damage - 1, enchantability, repair material
@@ -20,38 +24,9 @@ public enum ItemTiers implements IItemTier{
 		
 		return Ingredient.fromItems(ItemInit.STEEL_INGOT.get());
 		
-	}),
-	
-	SHARPENED_NETHERITE(5, 1792, 10.0F, 10.0F, 12, () -> {
-		
-		return null;
-		
-	}),
-	
-	SHARPENED_DIAMOND(4, 1280, 9.0F, 9.0F, 7, () -> {
-		
-		return null;
-		
-	}),
-
-	SHARPENED_IRON(3, 192, 7.0F, 8.0F, 11, () -> {
-	
-		return null;
-	
-	}),
-	
-	SHARPENED_STEEL(3, 768, 8.0F, 9.0F, 13, () -> {
-		
-		return null;
-		
-	}),
-	
-	SHARPENED_ALUMINIUM(2, 128, 6.0F, 7.0F, 4, () -> {
-		
-		return null;
-		
 	});
 	
+	//Initiates the values
 	private final int harvestLevel;
     private final int maxUses;
     private final float efficiency;
@@ -59,7 +34,6 @@ public enum ItemTiers implements IItemTier{
     private final int enchantability;
     private final Supplier<Ingredient> repairMaterial;
     
-	
 	ItemTiers(int harvestLevel, int maxUses, float efficiency, float attackDamage, int enchantability, Supplier<Ingredient> repairMaterial){
 		
 		this.harvestLevel = harvestLevel;
@@ -113,6 +87,4 @@ public enum ItemTiers implements IItemTier{
 		
 	}
 	
-	
-
 }
