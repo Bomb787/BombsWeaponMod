@@ -1,0 +1,215 @@
+{
+	"credit": "Made by Bomb787 using Blockbench",
+	"textures": {
+		"1": "bwm:items/ak_103",
+		"particle": "bwm:items/ak_103"
+	},
+	"elements": [
+		{
+			"name": "Bolt Carrier 1",
+			"from": [7.675, 10.3, 5.9],
+			"to": [8.675, 10.7, 7.715],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15.975, 18.35, 13.9]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 2",
+			"from": [8.675, 10.3, 5.9],
+			"to": [8.775, 10.6, 6.15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.175, 18.35, 13.9]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 3",
+			"from": [8.775, 10.3, 6],
+			"to": [9.325, 10.6, 6.15],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.375, 18.35, 13.9]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 4",
+			"from": [9.325, 10.3, 5.975],
+			"to": [9.525, 10.6, 6.1],
+			"rotation": {"angle": 0, "axis": "y", "origin": [16.825, 18.35, 13.85]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 5",
+			"from": [9.525, 10.3, 5.95],
+			"to": [9.625, 10.6, 6.075],
+			"rotation": {"angle": 0, "axis": "y", "origin": [17.025, 18.35, 13.825]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 6",
+			"from": [8.775, 10.3, 5.9],
+			"to": [8.95, 10.6, 6],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8.775, 10.3, 5.9]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 7",
+			"from": [7.675, 10.3, 7.715],
+			"to": [8.625, 10.75, 9.29],
+			"rotation": {"angle": 0, "axis": "y", "origin": [15.975, 18.35, 14.04]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 8",
+			"from": [8.625, 10.3, 7.715],
+			"to": [8.675, 10.7, 7.865],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.675, 10.55, 7.715]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 9",
+			"from": [8.5, 10.7, 5.9],
+			"to": [8.675, 10.9, 7.715],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.675, 10.7, 5.9]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 10",
+			"from": [7.82031, 10.73381, 5.9],
+			"to": [8.49531, 11.10881, 9.29],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.49531, 10.93381, 5.9]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 11",
+			"from": [7.75334, 10.72049, 5.9],
+			"to": [8.42834, 11.24549, 9.29],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8.42834, 11.09549, 5.9]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		},
+		{
+			"name": "Bolt Carrier 12",
+			"from": [8.5, 10.77071, 7.715],
+			"to": [8.675, 10.9, 9.29],
+			"rotation": {"angle": 45, "axis": "z", "origin": [8.675, 10.7, 7.8]},
+			"faces": {
+				"north": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"east": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"south": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"west": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"up": {"uv": [8, 0, 9, 1], "texture": "#1"},
+				"down": {"uv": [8, 0, 9, 1], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"translation": [0, 0, -2.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"thirdperson_lefthand": {
+			"translation": [0, -5.75, 4.25],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_righthand": {
+			"translation": [-3.5, 3.5, 2.5],
+			"scale": [0.6, 0.6, 0.6]
+		},
+		"firstperson_lefthand": {
+			"translation": [9, -4.25, 0],
+			"scale": [0.1, 0.1, 0.1]
+		},
+		"ground": {
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"gui": {
+			"rotation": [35, -135, 0],
+			"translation": [-0.5, 0, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"rotation": [0, 90, 0],
+			"translation": [0.5, -0.25, -0.75],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "Bolt Carrier",
+			"origin": [8, 8, 8],
+			"children": [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+		}
+	]
+}

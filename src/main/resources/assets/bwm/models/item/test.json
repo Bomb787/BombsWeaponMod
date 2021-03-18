@@ -1,0 +1,7 @@
+{
+  "loader": "forge:obj",
+  "__comment": "Add the following line on the same level as a 'model' declaration.",
+  "custom": { "flip-v": true },
+  "model": "bwm:models/item/ak47.obj",
+  "materialLibraryOverride": "bwm:models/item/ak47.mtl"
+}
