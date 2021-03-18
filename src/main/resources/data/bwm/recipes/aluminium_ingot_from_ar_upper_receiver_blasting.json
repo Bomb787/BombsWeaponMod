@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "bwm:ar_upper_receiver"
-  },
-  "result": "bwm:aluminium_ingot",
-  "experience": 0.0,
-  "cookingtime": 50
-}
