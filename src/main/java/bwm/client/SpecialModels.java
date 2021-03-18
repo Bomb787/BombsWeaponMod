@@ -32,7 +32,6 @@ public enum SpecialModels {
 	AK103BASE("ak_103_base"),
 	AK103BOLT("ak_103_bolt"),
 	AK103MAGAZINE("ak_103_magazine"),
-	GEOTEST("geotest");
 	
 	/**
      * The location of an item model in the [MOD_ID]/models/moving/[NAME] folder
