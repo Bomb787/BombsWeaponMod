@@ -1,9 +1,0 @@
-{
-  "type": "minecraft:blasting",
-  "ingredient": {
-    "item": "bwm:ak_receiver_pattern"
-  },
-  "result": "bwm:aluminium_ingot",
-  "experience": 0.0,
-  "cookingtime": 50
-}
