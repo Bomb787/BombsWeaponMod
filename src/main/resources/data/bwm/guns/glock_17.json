@@ -1,13 +1,14 @@
-{
+	{
     "general": {
         "rate": 3,
         "gripType": "cgm:one_handed",
         "maxAmmo": 17,
-        "reloadAmount": 17,
+        "reloadAmount": 3,
+        "recoilKick": 0.1,
         "recoilAngle": 8,
         "recoilAdsReduction": 0.5,
         "alwaysSpread": true,
-        "spread": 0.5
+        "spread": 1
     },
     "projectile": {
         "item": "bwm:9mm_parabellum",
@@ -18,37 +19,20 @@
         "life": 1000
     },
     "sounds": {
-        "fire": "cgm:item.pistol.fire",
-        "reload": "cgm:item.pistol.reload",
-        "cock": "cgm:item.pistol.cock",
-        "silencedFire": "cgm:item.pistol.silenced_fire"
+        "fire": "bwm:item.glock.fire",
+        "reload": "cgm:item.pistol.reload"
     },
     "display": {
         "flash": {
-            "yOffset": 3.3,
-            "zOffset": -16
+            "yOffset": 3.8,
+            "zOffset": -8
         }
     },
     "modules": {
         "zoom": {
-            "fovModifier": 1.0,
-            "yOffset": 12.8
-        },
-        "attachments": {
-            "scope": {
-                "yOffset": 3.7,
-                "zOffset": 6.0,
-                "scale": 0.75
-            },
-            "barrel": {
-                "yOffset": 3.3,
-                "zOffset": -16,
-                "scale": 0.5
-            },
-            "stock": {
-                "yOffset": 3.3,
-                "zOffset": 7.95
-            }
+            "fovModifier": 0.9,
+            "yOffset": 4.4,
+            "zOffset": -3
         }
     }
 }
