@@ -34,7 +34,7 @@ public class Glock17Model implements IOverrideModel{
             //Gets the cooldown tracker for the item. Items like swords and enderpearls also have this.
             CooldownTracker tracker = Minecraft.getInstance().player.getCooldownTracker();
             float cooldown = tracker.getCooldown(stack.getItem(), Minecraft.getInstance().getRenderPartialTicks());
-            cooldown = (float) easeOutExpo(cooldown);
+            cooldown = (float) ease(cooldown);
             /**
              * We are moving whatever part is moving.
              * X,Y,Z, use Z for moving back and forth.
@@ -50,12 +50,9 @@ public class Glock17Model implements IOverrideModel{
 		
 	}
 	
-	/**
-     * Easing function based on code from https://easings.net/#easeInOutBack
-     */
-	private double easeOutExpo(double x) {
+	private double ease(double x) {
 		
-		return x == 1 ? 1 : 1 - Math.pow(2, -10 * x);
+		return -4 * Math.pow(x-0.5, 2) + 1;
         
     }
 
